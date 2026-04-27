@@ -1,0 +1,4 @@
+dnslib>=0.9.14
+rich>=13.0.0
+pyreadline3>=3.4.1; sys_platform == 'win32'
+
