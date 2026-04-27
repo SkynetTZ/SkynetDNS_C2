@@ -1,6 +1,10 @@
 # SkynetDNS_C2
 Security research project exploring DNS-based command-and-control (C&amp;C) using DNS protocol.
 
+<img width="1788" height="479" alt="Screenshot 2026-04-27 at 19 09 09" src="https://github.com/user-attachments/assets/1ee83a4b-c2dc-454f-9e1b-8a7c787e8d0c" />
+
+<img width="1800" height="1169" alt="Screenshot 2026-04-27 at 18 39 00" src="https://github.com/user-attachments/assets/6330c325-8661-4090-945b-f58e0cca829a" />
+
 # About
 `SkyneDNS_C2` demonstrates how command/data exchange can be tunneled through DNS queries and responses.  
 The codebase includes:
@@ -84,7 +88,7 @@ It also includes usability checks (missing compiler/source handling) that make l
 Install dependencies:
 
 ```bash
-pip install dnslib rich
+pip3 install dnslib rich
 ```
 
 ### Client build (Windows)
@@ -96,14 +100,14 @@ pip install dnslib rich
 From the project root:
 
 ```bash
-python build.py
+python3 build.py
 ```
 
 Optional modes:
 
 ```bash
-python build.py optimize
-python build.py clean
+python3 build.py optimize
+python3 build.py clean
 ```
 
 Expected output is a Windows executable (default `1.exe`) in the repository root.
