@@ -5,6 +5,10 @@ Security research project exploring DNS-based command-and-control (C&amp;C) usin
 
 <img width="1800" height="1169" alt="Screenshot 2026-04-27 at 18 39 00" src="https://github.com/user-attachments/assets/6330c325-8661-4090-945b-f58e0cca829a" />
 
+<img width="1795" height="721" alt="Screenshot 2026-04-27 at 19 39 03" src="https://github.com/user-attachments/assets/11b0b20e-35a5-480c-b634-fae6713d93b2" />
+
+<img width="1483" height="999" alt="Screenshot 2026-04-27 at 19 40 25" src="https://github.com/user-attachments/assets/17849bde-ec8c-4465-ad94-9ae4dae2e12f" />
+
 # About
 `SkyneDNS_C2` demonstrates how command/data exchange can be tunneled through DNS queries and responses.  
 The codebase includes:
